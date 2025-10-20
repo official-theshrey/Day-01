@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+ 
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1914038020/pl/zdj%C4%99cie/img_1395-jpg.jpg?s=1024x1024&w=is&k=20&c=ALAq1_L5Ymiwm6ww0AqVhmsn3fG7_7yZUBW3My74XYs=);
+    background-size: cover;
+    background-position: top;
+    padding-top: 30px;
+    
+  
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
